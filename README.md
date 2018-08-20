@@ -10,7 +10,7 @@
 
   ···
 
-  ```f 
+  ``` 
   import re
   pattern = '<a.+?href="(.+?)".+?>.+?</a>'
   with open('download.sh', 'w') as fd:
