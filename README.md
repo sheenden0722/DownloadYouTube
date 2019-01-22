@@ -2,7 +2,9 @@
 
 >  建议先**【下滑刷新】**youtube**列表视频**的网页，这样可以加载所有的视频
 >
-> 此段代码运行在Mac系统下
+>  Mac系统（python2.7）,运行 catch_mac_py27.py
+>
+>  Win系统（python3.6）,运行 catch_win_py36.py
 
 * 1. save当前网页内容，命名为 web.htm
 
