@@ -8,11 +8,11 @@ with open('download.sh', 'w') as fd:
 
 		count = 0
 
-        for line in fp:
+		for line in fp:
 
-            ret = re.search(pattern, line)
+			ret = re.search(pattern, line)
 
-            if ret:
+			if ret:
 
 				for x in ret.groups():
 
@@ -20,10 +20,10 @@ with open('download.sh', 'w') as fd:
 
 						print 'youtube-dl --format=mp4 ' + x
 
-						fd.write ('youtube-dl --format=mp4 ' + x + '\n')
+						fd.write('youtube-dl --format=mp4 ' + x + '\n')
 
 						count += 1
 
-						fd.write ('echo "dowload the ' + str(count) + ' video"\n')
+						fd.write('echo "dowload the ' + str(count) + ' video"\n')
 
-		print 'count:',count
+		print 'count:', count

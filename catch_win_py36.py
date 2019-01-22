@@ -3,6 +3,7 @@ import re
 pattern = '<a.+?href="(.+?)".+?>.+?</a>'
 
 with open('download.sh', 'w') as fd:
+
 	with open("web.htm", "r", encoding='UTF-8') as fp:
 
 		count = 0
